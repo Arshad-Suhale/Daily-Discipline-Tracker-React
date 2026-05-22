@@ -1,73 +1,146 @@
-# React + TypeScript + Vite
+# Daily Discipline Tracker (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern dark-themed discipline tracking web app built with **React + TypeScript + Vite**.
 
-Currently, two official plugins are available:
+This project helps users track daily consistency in:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Salah
+* Quran reading
+* Coding practice
+* Exercise
 
-## React Compiler
+Built as part of my journey to improve:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* frontend development skills
+* React fundamentals
+* consistency and discipline in coding
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🌐 Live Preview
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+https://arshad-suhale.github.io/Daily-Discipline-Tracker-React/
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
+
+* ✅ Track 5 daily Salah
+* 📖 Log Quran reading progress
+* 💻 Track coding practice duration
+* 🏃 Track exercise duration
+* 💾 Persistent data using localStorage
+* 🔄 Reset functionality
+* 🎨 Modern dark-themed UI
+* ⚡ Built with React + Vite
+* 📱 Responsive layout
+
+---
+
+## 🧠 What I Learned
+
+While building this project, I learned and practiced:
+
+### React Fundamentals
+
+* Functional Components
+* JSX
+* Props
+* State-driven UI
+* Controlled Inputs
+* Event Handling
+* Conditional Rendering
+
+### React Hooks
+
+* `useState`
+* `useEffect`
+
+### TypeScript Concepts
+
+* Interfaces
+* Union Types
+* Type Safety
+* Component Props Typing
+
+### Frontend Concepts
+
+* Component Thinking
+* Reusability
+* Semantic Structure
+* CSS Variable System
+* UI Hierarchy
+* State Management Basics
+* localStorage Persistence
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* TypeScript
+* Vite
+* CSS3
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash id="r1a5ws"
+git clone https://github.com/Arshad-Suhale/Daily-Discipline-Tracker-React.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash id="4c7k1r"
+npm install
 ```
+
+Run development server:
+
+```bash id="h6s0j4"
+npm run dev
+```
+
+Build for production:
+
+```bash id="7s0f0m"
+npm run build
+```
+
+---
+
+## 🎯 Purpose of This Project
+
+This project was not only built to practice React and frontend development, but also to improve consistency, discipline, and the ability to complete projects from start to finish.
+
+It represents an important milestone in my journey from:
+
+* starting projects and quitting midway
+  to:
+* building, completing, and deploying projects consistently.
+
+---
+
+## 🔮 Future Improvements
+
+Possible future enhancements:
+
+* Better animations and transitions
+* Streak tracking
+* Authentication
+* Backend integration
+* Progress analytics
+* Mobile app version
+* Better accessibility and UX
+
+---
+
+## 👨‍💻 Author
+
+Built by Arshad
+
+GitHub:
+https://github.com/Arshad-Suhale
