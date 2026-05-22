@@ -1,0 +1,7 @@
+.section-inputs {
+    justify-content: start;
+    gap: 16px;
+    background-color: var(--color-primary);
+    padding: 16px;
+    border-radius: 6px;
+}

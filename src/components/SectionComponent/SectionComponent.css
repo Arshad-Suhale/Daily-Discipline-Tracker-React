@@ -1,0 +1,21 @@
+.sub-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sub-section .section-inputs, .section-inputs .salah-checkbox {
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+}
+
+.section-inputs input {
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--color-text);
+    background-color: transparent;
+    color: var(--color-text);
+}
